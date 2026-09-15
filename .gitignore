@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Derived datasets (raw Allen data lives outside the repo; canonical/interim
+# composites built by analysis_code/ are regenerable and stay untracked)
+/data/
